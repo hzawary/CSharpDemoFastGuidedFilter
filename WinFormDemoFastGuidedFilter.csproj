@@ -34,16 +34,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accord">
-      <HintPath>..\Accord.NET-3.0.2-archive\Release\net40\Accord.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>lib\Accord.dll</HintPath>
     </Reference>
     <Reference Include="Accord.Imaging">
-      <HintPath>..\Accord.NET-3.0.2-archive\Release\net40\Accord.Imaging.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="AForge">
-      <HintPath>..\ExtraFilterForAForge\AForge.NET Framework-2.2.5\AForge.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>lib\Accord.Imaging.dll</HintPath>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
